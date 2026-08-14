@@ -26,7 +26,6 @@ const UseDeferredValue = () => {
     // 过滤列表，仅在deferredQuery更新时候触发
     return list.filter((item) => item.name.toString().includes(deferredQuery));
   };
-195
   return (
     <div>
       <input value={val} onChange={(e) => setVal(e.target.value)} />
