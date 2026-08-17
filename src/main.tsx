@@ -9,6 +9,7 @@ import UseEffect from './hooks/useEffect.tsx'
 import UseLayoutEffect from './hooks/useLayoutEffect.tsx'
 import UseRef from "./hooks/useRef.tsx";
 import UseImperativeHandle from "./hooks/useImperativeHandle.tsx";
+import UseContext from "./hooks/useContext.tsx";
 
 
 createRoot(document.getElementById("root")!).render(
@@ -21,7 +22,8 @@ createRoot(document.getElementById("root")!).render(
     {/* <UseEffect /> */}
     {/* <UseLayoutEffect /> */}
     {/* <UseRef /> */}
-    <UseImperativeHandle />
+    {/* <UseImperativeHandle /> */}
+    <UseContext />
   </div>
   // </StrictMode>,
 );
